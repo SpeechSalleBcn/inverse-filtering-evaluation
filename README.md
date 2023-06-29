@@ -194,7 +194,7 @@ Based on the methods implemented in [Covarep](http://covarep.github.io/covarep/)
 Based on the implementation by [Olivier Perrotin](olivier.perrotin@gipsa-lab.grenoble-inp.fr) with license LGPL
 
 #### QCP
-Based on the implementation in [AaltoAparat](http://research.spa.aalto.fi/projects/aparat/legacy/Aalto_Aparat_sources.zip) an open source project (without explicit license)
+Based on the implementation in [AaltoAparat](http://research.spa.aalto.fi/projects/aparat/legacy/Aalto_Aparat_sources.zip) an open source project
 
 ### utils/vendor
 #### Ini Config
