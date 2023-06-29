@@ -1,0 +1,11 @@
+# results files
+*.asv
+.idea/*
+
+.venv/
+bin/
+lib/
+lib64
+pyvenv.cfg
+
+inverse_filtering_analysis/vendor/
