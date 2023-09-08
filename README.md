@@ -75,8 +75,8 @@ experiment_parent_directory
 └─	GIF_config_files_dir 			(contains the GIF configuration files)
 └─	GIF_parameters_files_dir		(only analysis, parameters to be used for each audio file)
 └─	results_dir_name
-		└─ mat 						(only optimisation, automatically created)
-└─	logs_dir 						(automatically created)
+		└─ mat 				(only optimisation, automatically created)
+└─	logs_dir 				(automatically created)
 audio_files_dir_name
 ```
 
@@ -87,18 +87,18 @@ The experiment will run following a configuration file named `config.ini`, which
 ```
 [experiment]
 
-repository = repository_name				; used for the results files
-optimization = true							; false for analysis
-filesFormat = (?<a>\w+)_(?<b>\w+)			; regex of the audio files
+repository = repository_name			; used for the results files
+optimization = true				; false for analysis
+filesFormat = (?<a>\w+)_(?<b>\w+)		; regex of the audio files
 
 [paths]
 
-corpusDir = audio_files_dir_name			; e.g. wavs
+corpusDir = audio_files_dir_name		; e.g. wavs
 
 invFilterConfigDir = GIF_config_files_dir 	; e.g. inverseFilterOptimization or inverseFilterAnalysis
 paramFilesDir = GIF_parameters_files_dir 	; only for analysis execution, e.g. analysisParams
 
-resultsDir = results_dir_name				; e.g. optimizationResults or analysisResults
+resultsDir = results_dir_name			; e.g. optimizationResults or analysisResults
 
 logDir = logs_dir
 logFileName = logFile.txt
